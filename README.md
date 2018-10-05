@@ -18,3 +18,12 @@ RegExp  - What it Does
 - \S	Matches any non-whitespace character. Same as [^ \t\n\r]
 - \w	Matches any word character (definned as a to z, A to Z,0 to 9, and the underscore). Same as [a-zA-Z_0-9]
 - \W	Matches any non-word character. Same as [^a-zA-Z_0-9]
+
+### Repetition Quantifiers
+- p+	Matches one or more occurrences of the letter p.
+- p*	Matches zero or more occurrences of the letter p.
+- p?	Matches zero or one occurrences of the letter p.
+- p{2}	Matches exactly two occurrences of the letter p.
+- p{2,3}	Matches at least two occurrences of the letter p, but not more than three occurrences of the letter p.
+- p{2,}	Matches two or more occurrences of the letter p.
+- p{,3}	Matches at most three occurrences of the letter p
