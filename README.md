@@ -1,7 +1,6 @@
 # regex
 
 ### Character Classes
-RegExp  - What it Does
 - [abc]	- Matches any one of the characters a, b, or c.
 - [^abc]	- Matches any one character other than a, b, or c.
 - [A-Z]	- Matches any one character from uppercase a to uppercase z.
@@ -27,3 +26,7 @@ RegExp  - What it Does
 - p{2,3}	Matches at least two occurrences of the letter p, but not more than three occurrences of the letter p.
 - p{2,}	Matches two or more occurrences of the letter p.
 - p{,3}	Matches at most three occurrences of the letter p
+
+### Position Anchors
+- ^p	Matches the letter p at the beginning of a line.
+- p$	Matches the letter p at the end of a line.
