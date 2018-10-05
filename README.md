@@ -1,4 +1,4 @@
-# regex
+# Regex
 
 ### Character Classes
 - [abc]	- Matches any one of the characters a, b, or c.
@@ -38,3 +38,7 @@
 - o	Evaluates the expression only once.
 - s	Changes the behavior of . (dot) to match all characters, including newlines.
 - x	Allows you to use whitespace and comments within a regular expression for clarity.
+
+
+##### Source
+https://www.tutorialrepublic.com/php-tutorial/php-regular-expressions.php 
