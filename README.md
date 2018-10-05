@@ -30,3 +30,11 @@
 ### Position Anchors
 - ^p	Matches the letter p at the beginning of a line.
 - p$	Matches the letter p at the end of a line.
+
+### Pattern Modifiers
+- i	Makes the match case-insensitive manner.
+- m	Changes the behavior of ^ and $ to match against a newline boundary (i.e. start or end of each line within a multiline string), instead of a string boundary.
+- g	Perform a global match i.e. finds all occurrences.
+- o	Evaluates the expression only once.
+- s	Changes the behavior of . (dot) to match all characters, including newlines.
+- x	Allows you to use whitespace and comments within a regular expression for clarity.
